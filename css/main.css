@@ -4,7 +4,227 @@
  *
  * Site Styles
  *****************************************************************************/
+html{
+	padding: 0;
+	margin: 0;
+}
 
- html {
-     color: green;
- }
+header {
+	min-height: 400px;
+	background-image: url(../img/official_header.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}	
+
+P{
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+h2{
+	margin: 0;
+}
+
+.subtitle {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	background: rgb(22,132,40);
+	color: white;
+	padding: 5px;
+}
+
+.subtitle p {
+	margin: 0;
+	
+}
+
+
+nav .main-nav {
+	margin: 0;
+	padding: 5px;
+	background: rgb(229, 97, 16);
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+nav li {
+	display: inline;
+	padding: 0px;
+}
+
+nav a {
+	display: inline-block;
+	width: 300px;
+	font-size: 1.2em;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration:none;
+	
+}
+
+nav a:link, a:visited{
+	color:white
+}
+
+nav a:hover {
+	color: rgb(252, 254, 159)
+}
+
+#watch {
+	background-color: rgb(232, 87, 148);
+	padding: 25px;
+}
+
+#download{
+	background-color: rgb(232, 87, 148);
+	padding: 10px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+
+
+#download img{
+	display: block;
+	margin: 0 auto;
+		
+}
+
+video {
+	display: block;
+	margin: 0 auto;
+}
+
+body {
+	 margin: 0;
+}
+#listen{
+	background:rgb(24, 170, 217);
+	font-family:sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	color: rgb(232,87,148);
+	padding: 10px;
+}	
+
+	
+aside {
+	background-color: lightseagreen;
+}
+
+#social {
+	background: rgb(24, 170, 217);
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 25px;
+	transition: 1s width;
+	font-family: sans-serf;
+	padding: 10px;
+	
+}
+
+#social:hover{
+	width: 100px;
+}
+
+#social h2 {
+	font-family: sans-serif;
+	color: rgb(232, 87, 148);
+}
+
+#social ul {
+	font-family: sans-serif;
+	list-style: none;
+	padding: 0;
+	
+}
+
+#social li {
+	margin: 0;
+	padding: 0;
+}
+
+#about {
+	background-color: rgb(232, 87, 148);
+	padding: 10px;
+	overflow: hidden;
+	
+}
+
+#about p {
+	color: white;
+	font: sans-serif;
+	text-height: 1.3;
+	font-size: 1.3em;
+	
+}
+
+#about a {
+	width: 0; 
+	font-size: 1em;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration:none;
+	
+}
+
+a:link, a:visited{
+	color:white
+}
+
+a:hover {
+	color: rgb(252, 254, 159)
+}
+
+.lead {
+	font-size: 1.5em;
+	background: rgb(22,132,40);
+	text-align: center;
+	text-height: 1.3;
+	color: white;
+	margin: 0 0 25 0;
+	padding: 20 px;
+}
+	
+.weybec-people {
+	list-style:none;
+}
+
+.headshot {
+	float: left;
+	width: 75px;
+	clear: both;
+	padding: 10px;
+		
+}
+
+footer {
+	background: rgb(22,132,40);
+	margin: 0;
+	padding: 16px ;
+}
+footer p {
+	margin: 0;
+	color: white;
+	
+}
