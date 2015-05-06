@@ -203,17 +203,17 @@ a:hover {
 	text-height: 1.3;
 	color: white;
 	margin: 0 0 25 0;
-	padding: 20 px;
+	padding: 20px;
 }
 	
 .weybec-people {
-	list-style:none;
+	list-style: none;
+	
 }
 
+
 .headshot {
-	float: left;
 	width: 75px;
-	clear: both;
 	padding: 10px;
 		
 }
